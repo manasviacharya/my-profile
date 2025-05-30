@@ -1,0 +1,107 @@
+.profile-img {
+    border-radius: 50%;
+  }
+
+#title{
+    background-color: lightcyan;
+}
+
+h1{
+    font-family: "Parisienne", cursive;
+}
+
+h2{
+    font-family: "Parisienne", cursive;
+    font-weight:bold;
+    text-align: center;
+    font-size: 40px;
+}
+
+p{
+    font-family: "Share Tech", sans-serif;
+    color:gray;
+    font-weight:bold;
+}
+
+#skills{
+    background-color: lightgrey;
+    font-family: "Share Tech", sans-serif;
+}
+
+#skills a{
+    color: black;
+    text-decoration:none;
+}
+
+#touch{
+    font-family: "Share Tech", sans-serif;
+}
+
+#touch a{
+    color: black;
+    text-decoration:none;
+}
+
+
+@media (max-width:1600px) and (min-width:600px){
+    #myskills img{
+        float:left;
+        margin-right:20px;
+        height:200px;
+        width:300px;
+    }
+    #myskills p{
+        font-size: 20px;
+        text-align: justify;
+        line-height:40px;
+        color:gray;
+    }
+}
+@media (max-width:600px){
+    #myskills img{
+        display:block;
+        margin-bottom:10px;
+        height:200px;
+        width:400px;
+    }
+    #myskills p{
+        font-size: 20px;
+        text-align: justify;
+        line-height:30px;
+        color:gray;
+    }
+}
+@media (max-width:319px){
+    #myskills img{
+        display:block;
+        margin-bottom:10px;
+        height:200px;
+        width:250px;
+    }
+    #myskills p{
+        font-size: 20px;
+        text-align: justify;
+        line-height:30px;
+        color:gray;
+    }
+}
+#contactme{
+    background-color: lightgrey;
+    font-family: "Share Tech", sans-serif;
+    font-size:20px;
+}
+
+#contactme a{
+    color: black;
+    text-decoration:none;
+}
+
+#footer{
+    background-color: lightcyan;
+}
+
+#intouch p{
+    font-size:20px;
+    color:gray;
+}
+
